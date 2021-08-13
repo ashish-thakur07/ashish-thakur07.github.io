@@ -2,25 +2,43 @@
 <head>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
-<title>About - Tech Diary</title><link rel=apple-touch-icon href=/images/favicons/apple-touch-icon.png sizes=180x180>
+<title>Springboot Hello world - Tech Diary</title><link rel=apple-touch-icon href=/images/favicons/apple-touch-icon.png sizes=180x180>
 <link rel=icon href=/images/favicons/favicon-32x32.png sizes=32x32 type=image/png>
 <link rel=icon href=/images/favicons/favicon-16x16.png sizes=16x16 type=image/png>
 <link rel=manifest href=/images/favicons/manifest.json>
 <link rel=icon href=/images/favicons/favicon.ico>
 <meta name=keywords content>
-<meta name=description content="Tech Diary, Techincal Blog from Ashish Thakur"><meta itemprop=name content="About">
-<meta itemprop=description content="Tech Diary, Techincal Blog from Ashish Thakur"><meta itemprop=datePublished content="2021-07-30T00:00:00+00:00">
-<meta itemprop=dateModified content="2021-07-30T00:00:00+00:00">
-<meta itemprop=wordCount content="44">
-<meta itemprop=keywords content><meta property="og:title" content="About">
-<meta property="og:description" content="Tech Diary, Techincal Blog from Ashish Thakur">
+<meta name=description content><meta itemprop=name content="Springboot Hello world">
+<meta itemprop=description content="Springboot Hello World Example This is a simple Springboot application that shows how to create a simple Hello World application.
+Boostraping project   Create a new project using Spring Initializr .
+  Choose gradle or maven project.
+  Choose spring web dependency.
+  Explore the project and generate zip.
+  Unzip the file and open the project in your favourite IDE.
+  Creating the controller   Create a controller class in com."><meta itemprop=datePublished content="2021-07-31T00:42:55+05:30">
+<meta itemprop=dateModified content="2021-07-31T00:42:55+05:30">
+<meta itemprop=wordCount content="200">
+<meta itemprop=keywords content="Spring,Spring boot,"><meta property="og:title" content="Springboot Hello world">
+<meta property="og:description" content="Springboot Hello World Example This is a simple Springboot application that shows how to create a simple Hello World application.
+Boostraping project   Create a new project using Spring Initializr .
+  Choose gradle or maven project.
+  Choose spring web dependency.
+  Explore the project and generate zip.
+  Unzip the file and open the project in your favourite IDE.
+  Creating the controller   Create a controller class in com.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="/about/"><meta property="article:section" content>
-<meta property="article:published_time" content="2021-07-30T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-07-30T00:00:00+00:00">
+<meta property="og:url" content="/posts/springboot-helloworld/"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2021-07-31T00:42:55+05:30">
+<meta property="article:modified_time" content="2021-07-31T00:42:55+05:30">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="About">
-<meta name=twitter:description content="Tech Diary, Techincal Blog from Ashish Thakur">
+<meta name=twitter:title content="Springboot Hello world">
+<meta name=twitter:description content="Springboot Hello World Example This is a simple Springboot application that shows how to create a simple Hello World application.
+Boostraping project   Create a new project using Spring Initializr .
+  Choose gradle or maven project.
+  Choose spring web dependency.
+  Explore the project and generate zip.
+  Unzip the file and open the project in your favourite IDE.
+  Creating the controller   Create a controller class in com.">
 <meta name=twitter:site content="@ashish___thakur">
 <meta data-name=palette content="blue"><link rel=stylesheet href=/css/bundle.min.7fa8002b01318588e1a082caef7dabcfccda323105ea2595e776667563f7e243.css integrity="sha256-f6gAKwExhYjhoILK732rz8zaMjEF6iWV53ZmdWP34kM=" crossorigin=anonymous><script src=/js/bundle.min.323abd911ff58b828a6a3b3f3238f30c4a8c261c74b1e50ab0fe540e433d04f2.js integrity="sha256-Mjq9kR/1i4KKajs/MjjzDEqMJhx0seUKsP5UDkM9BPI=" crossorigin=anonymous></script>
 </head><body><header><nav class="navbar navbar-expand-xl fixed-top">
@@ -121,11 +139,14 @@
 <div class="row content">
 <div class=col-lg-8>
 <div class=container><nav class=row aria-label=breadcrumb>
-<ol class="breadcrumb surface"><li class=breadcrumb-item><a href=/>Home</a></li><li class="breadcrumb-item active">About</li></ol>
+<ol class="breadcrumb surface"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/posts/>Posts</a></li><li class="breadcrumb-item active">Springboot Hello World</li></ol>
 </nav><article class="post row surface"><div class=post-panel-wrapper>
 <div class="post-panel d-flex flex-column">
 <a id=sidebarToggler class="action d-none d-lg-block" role=button>
 <i class="fas fa-fw fa-expand-alt fa-rotate-45"></i>
+</a>
+<a class="action btn-reward" role=button data-bs-toggle=modal data-bs-target=#rewardModal title=Reward>
+<i class="fas fa-fw fa-medal"></i>
 </a>
 <a class=action data-bs-container=body data-bs-toggle=popover data-bs-html=true data-bs-placement=bottom data-bs-trigger=focus tabindex=0 data-bs-content='<a target="_blank" rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en">CC BY-NC-ND 4.0 <i class="fab fa-fw fa-creative-commons"></i><i class="fab fa-fw fa-creative-commons-by"></i><i class="fab fa-fw fa-creative-commons-nc"></i><i class="fab fa-fw fa-creative-commons-nd"></i></a>
 '>
@@ -133,22 +154,111 @@
 </a>
 </div>
 </div>
-<h1 class="post-title my-3">About
+<h1 class="post-title my-3">Springboot Hello World
 </h1><div class="post-meta mb-3">
 <span class="post-date me-2">
-<i class="fas fa-fw fa-calendar-alt"></i>Jul 30, 2021
+<i class="fas fa-fw fa-calendar-alt"></i>Jul 31, 2021
 </span>
 <span class="post-reading-time me-2">
 <i class="fas fa-fw fa-coffee"></i>1 min read
-</span></div>
-<div class="post-content mb-3"><p>Welcome to Tech Diary, Technical Blog from Ashish Thakur. Here you can find all the technical stuff that I am working on. I will be adding more posts as I go. Share your thoughts and suggestions with me and lets make the technolgy fun.</p>
+</span><a href=/categories/java/ class=post-taxonomy>#Java</a><a href=/tags/spring/ class=post-taxonomy>#Spring</a><a href=/tags/spring-boot/ class=post-taxonomy>#Spring boot</a></div>
+<div class="post-content mb-3"><h3 id=springboot-hello-world-example>Springboot Hello World Example</h3>
+<p>This is a simple Springboot application that shows how to create a simple Hello World application.</p>
+<h4 id=boostraping-project>Boostraping project</h4>
+<ol>
+<li>
+<p>Create a new project using <a href=https://start.spring.io/ target=_blank>Spring Initializr</a>
+.</p>
+</li>
+<li>
+<p>Choose gradle or maven project.</p>
+</li>
+<li>
+<p>Choose spring web dependency.</p>
+<p><img class=img-fluid src=/images/springboot/spring-initializr.png alt="spring boot initializr" loading=lazy>
+</p>
+</li>
+<li>
+<p>Explore the project and generate zip.</p>
+</li>
+<li>
+<p>Unzip the file and open the project in your favourite IDE.</p>
+</li>
+</ol>
+<h3 id=creating-the-controller>Creating the controller</h3>
+<ol>
+<li>
+<p>Create a controller class in <code>com.example.springboot.controller</code> package.</p>
+</li>
+<li>
+<p>Naming convention for controller class is <code>{controller-name}Controller</code>.</p>
+</li>
+<li>
+<p>Name the controller class as <code>HelloController.java</code> as we are going to create hello world app.</p>
+</li>
+<li>
+<p>Add @RestController annotation to the controller class to specify that this is a rest controller and is also responsible to serialize java objects to json.</p>
+</li>
+<li>
+<p>Add the @RequestMapping annotation to the controller method to specify the url path.</p>
+</li>
+<li>
+<p>Add the following code to the <code>HelloController.java</code> class.</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=ln>1</span><span class=nd>@RestController</span>
+<span class=ln>2</span><span class=nd>@RequestMapping</span><span class=o>(</span><span class=s>&#34;/hello&#34;</span><span class=o>)</span>
+<span class=ln>3</span><span class=kd>public</span> <span class=kd>class</span> <span class=nc>HelloController</span> <span class=o>{</span>
+<span class=ln>4</span>    <span class=nd>@RequestMapping</span><span class=o>(</span><span class=s>&#34;/&#34;</span><span class=o>)</span>
+<span class=ln>5</span>    <span class=kd>public</span> <span class=n>String</span> <span class=nf>hello</span><span class=o>()</span> <span class=o>{</span>
+<span class=ln>6</span>        <span class=k>return</span> <span class=s>&#34;Hello World&#34;</span><span class=o>;</span>
+<span class=ln>7</span>    <span class=o>}</span>
+<span class=ln>8</span><span class=o>}</span>
+</code></pre></div></li>
+</ol>
+<h3 id=running-the-application>Running the application</h3>
+<ol>
+<li>Run the application using gradle, maven or from main class.</li>
+<li>Using Gradle: <code>gradle bootRun</code> .</li>
+<li>Using Maven: <code>mvn spring-boot:run</code>.</li>
+<li>Using main class: Run the application using <code>main()</code> method.</li>
+<li>Now you can access the application at <code>http://localhost:8080/hello</code>.</li>
+<li>You can see the hello world message.</li>
+</ol>
+</div><div class="modal fade" id=rewardModal tabindex=-1 aria-labelledby=rewardModalLabel aria-hidden=true>
+<div class=modal-dialog>
+<div class="modal-content surface">
+<div class=modal-header>
+<h5 class=modal-title id=rewardModalLabel><i class="fas fa-fw fa-medal"></i>Reward</h5>
+<a href=# data-bs-dismiss=modal aria-label=Close><i class="fas fa-fw fa-times"></i></a>
+</div>
+<div class=modal-body>
+<ul class="nav nav-tabs mb-3" role=tablist><li class=nav-item role=presentation>
+<a class="nav-link active" id=reward-alipay-tab data-bs-toggle=tab href=#reward-alipay role=tab aria-controls=reward-alipay aria-selected=true>
+<i class="fab fa-fw fa-alipay"></i>Alipay
+</a>
+</li><li class=nav-item role=presentation>
+<a class=nav-link id=reward-wechat-tab data-bs-toggle=tab href=#reward-wechat role=tab aria-controls=reward-wechat aria-selected=true>
+<i class="fab fa-fw fa-weixin"></i>WeChat
+</a>
+</li></ul>
+<div class=tab-content id=rewardTabContent><div class="tab-pane fade post-reward-content show active" id=reward-alipay role=tabpanel aria-labelledby=reward-alipay-tab>
+<img class="img-fluid post-reward-img" src=/images/reward/alipay.png loading=lazy>
+</div><div class="tab-pane fade post-reward-content show" id=reward-wechat role=tabpanel aria-labelledby=reward-wechat-tab>
+<img class="img-fluid post-reward-img" src=/images/reward/wechat.png loading=lazy>
+</div></div>
+</div>
+</div>
+</div>
 </div><hr><div class="post-navs d-flex mb-3 justify-content-between">
-<div class="post-nav w-50"></div>
-<div class="post-nav flex-row-reverse"><div class="next-post btn btn-sm">
-<a href=/posts/springboot-helloworld/>Springboot Hello World
+<div class="post-nav w-50"><div class="prev-post btn btn-sm">
+<a href=/about/>About
 </a>
 </div></div>
-</div></article><div class="post-comments surface row"><div id=disqus_thread></div>
+<div class="post-nav flex-row-reverse"></div>
+</div><section class=related-posts>
+<h3>Related Posts</h3>
+<ul class=related-posts><li><a href=/about/>About
+</a></li></ul>
+</section></article><div class="post-comments surface row"><div id=disqus_thread></div>
 <script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//ashish___thakur.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
 <noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
 <a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a><script src=https://utteranc.es/client.js repo=ashish-thakur111/my-blog issue-term=pathname label theme=github-dark crossorigin=anonymous async></script></div></div>
